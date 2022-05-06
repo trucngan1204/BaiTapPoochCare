@@ -17,6 +17,7 @@
         padding:3rem 3.5rem;
         .photo-grids{
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             border-bottom: 1px solid $border-light;
             padding-bottom: 80px;

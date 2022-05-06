@@ -271,6 +271,7 @@
 
 .footer_poolcare .footer .row .footer-list ul li a:hover {
   color: #fff;
+  text-decoration: underline;
 }
 
 .footer_poolcare .footer .row .social-icons {
@@ -332,6 +333,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
